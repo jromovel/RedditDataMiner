@@ -49,7 +49,7 @@ def scrape_subreddit(subreddit, num_posts):
             #Grab everything except the last part of the url
             for i in range(0,len(d)-1):
                 word_bank.append(d[i])
-            
+            #comment
             #TODO: Get the text from the website here
     return word_bank
 print(scrape_subreddit("science", 25))
